@@ -1,0 +1,177 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   BODY
+========================= */
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/* =========================
+   CONTAINER
+========================= */
+
+.cv-container {
+    width: 100%;
+    max-width: 900px;
+
+    margin: 0 auto;
+
+    padding: 40px 50px;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 400;
+    color: #000000;
+
+    line-height: 1.2;
+}
+
+.header-line {
+    width: 100%;
+    height: 1px;
+
+    background-color: #000000;
+
+    margin-top: 8px;
+}
+
+.header p {
+    margin-top: 5px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+/* =========================
+   SECTION
+========================= */
+
+.cv-section {
+    padding: 14px 0;
+
+    border-bottom: 1px solid #000000;
+}
+
+.cv-section h2 {
+    font-size: 20px;
+    font-weight: 400;
+
+    color: #000000;
+
+    margin-bottom: 6px;
+}
+
+.cv-section p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #000000;
+}
+
+
+/* =========================
+   DATA PRIBADI
+========================= */
+
+.info p {
+    margin-bottom: 0;
+}
+
+
+/* =========================
+   HOBI
+========================= */
+
+.cv-section ul {
+    padding-left: 20px;
+}
+
+.cv-section li {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #000000;
+}
+
+
+/* =========================
+   LINK
+========================= */
+
+.cv-section a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.cv-section a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   LAST SECTION
+========================= */
+
+.last-section {
+    border-bottom: none;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 600px) {
+
+    .cv-container {
+        padding: 30px 25px;
+    }
+
+    .header h1 {
+        font-size: 30px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .cv-section h2 {
+        font-size: 18px;
+    }
+
+    .cv-section p,
+    .cv-section li {
+        font-size: 15px;
+    }
+}
